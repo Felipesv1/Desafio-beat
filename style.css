@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    width:100%;
+    height:100%;
+  }
+  
+  header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:#129799;
+    height:50vh;
+  }
+  
+  .nav-hea{
+    width: 70%;
+  }
+  
+  ul{
+    
+    
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    color: white;
+  margin:2.1vh;
+    
+     }
+  
+  .nav-cps{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+  }
+  
+  .life{
+  
+    width:350px;
+    display:flex;
+  }
+  
+  .compasso{
+    font-size:2rem;
+   color: #F7F7F7;
+  display:flex;
+  
+  
+  }
+  
+  main{
+    width:100%;
+    height:180vh;
+      background: #FFA185;
+  display:flex;
+  
+  
+  }
+  
+  .box-aqua{
+   
+    width:92vw;
+    height:30vh;
+  margin-left:25px;
+  display:flex;
+  flex-direction:column;
+   align-items:flex-start;
+  justify-content:space-evenly;
+  
+  }
+  
+  .aquarela{
+    color: #F7F7F7;
+    padding-top:10px;
+  
+  
+  }
+  .box-img{
+    
+    width:95vw;
+    height:55vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:2.1vh;
+  }
+  
+  .dance{
+    width:45vw;
+    height:55vh;
+    display:flex;
+     object-fit:cover;
+  margin:2.1vh;
+  
+  }
+  
+  .music{
+    width:45vw;
+     height:55vh;
+    display:flex;
+    object-fit:cover;
+  margin-right:18px;
+  }
+  
+  
+  
+  .radio{
+  
+    width:45vw;
+     height:55vh;
+    display:flex;
+   object-fit:cover;
+   margin-left:12px;
+  }
+  
+  .girl{
+  
+    width:45vw;
+     height:55vh;
+    display:flex;
+   object-fit:cover;
+  margin-right:18px;
+  }
+  
+  .veja{
+  margin-left:45vw;
+    align-self:center;
+  }
+  
+  footer{
+  background: #129799;
+  display:flex;
+   align-items:center;
+  }
+  
+  .icons{
+  
+    display:flex;
+    align-items:flex-start;
+  margin-left:80px;
+    
+  
+  }
+  
+  
+  .insta{
+     width:40px;
+    object-fit:cover;
+   
+  }
+  
+  .face{
+    width:40px;
+     margin-left:10px;
+  }
+  
+  .linke{
+    width:40px;
+     margin-left:10px;
+  }
+  
+  .pint{
+    width:40px;
+     margin-left:10px;
+  }
+  
+  .nav-footer{
+    width:40%;
+  
+  margin-left:300px;
+  }
+  
+  
