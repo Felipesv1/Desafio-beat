@@ -5,7 +5,7 @@
   }
   
   body{
-    width:100%;
+    width:105%;
     height:100%;
   }
   
@@ -15,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     background:#129799;
-    height:50vh;
+    height:60vh;
   }
   
   .nav-hea{
@@ -30,10 +30,11 @@
     list-style: none;
     color: white;
   margin:2.1vh;
+
     
      }
   
-  .nav-cps{
+  .box-cps{
     width:100%;
     height:100vh;
     display:flex;
@@ -44,14 +45,16 @@
   
   .life{
   
-    width:350px;
+    width: 20rem;
     display:flex;
+
   }
   
   .compasso{
-    font-size:2rem;
+    font-size:2.5rem;
    color: #F7F7F7;
   display:flex;
+
   
   
   }
@@ -76,6 +79,10 @@
   justify-content:space-evenly;
   
   }
+
+  .box-aqua p{
+    width:36.7rem;
+  }
   
   .aquarela{
     color: #F7F7F7;
@@ -91,6 +98,7 @@
     justify-content:space-between;
     align-items:center;
     margin:2.1vh;
+ 
   }
   
   .dance{
@@ -108,17 +116,19 @@
     display:flex;
     object-fit:cover;
   margin-right:18px;
+
   }
   
   
   
-  .radio{
+  .fita{
   
     width:45vw;
      height:55vh;
     display:flex;
    object-fit:cover;
-   margin-left:12px;
+   margin-right:9px;
+   margin-left: 8px;
   }
   
   .girl{
@@ -128,6 +138,8 @@
     display:flex;
    object-fit:cover;
   margin-right:18px;
+
+  
   }
   
   .veja{
@@ -142,40 +154,112 @@
   }
   
   .icons{
-  
     display:flex;
     align-items:flex-start;
   margin-left:80px;
-    
-  
+  width:95vw;
+  justify-content: center;
   }
   
   
   .insta{
-     width:40px;
+     width:2.5em;
     object-fit:cover;
    
   }
   
   .face{
-    width:40px;
+    width:2.5em;
      margin-left:10px;
   }
   
   .linke{
-    width:40px;
+    width:2.5em;
      margin-left:10px;
   }
   
   .pint{
-    width:40px;
+    width:2.5em;
      margin-left:10px;
   }
   
   .nav-footer{
     width:40%;
-  
   margin-left:300px;
+  align-self: center
+  }
+
+
+ @media(max-width:780px){
+   .box-cps{
+     flex-direction: column-reverse;
+
+   }
+   .aquarela{
+    color: #F7F7F7;
+    padding-top:10px;
+
+  
+  
+  }
+   .compasso{
+     position: relative;
+     bottom: 35px;
+     text-align: center;
+
+   }
+header{
+  height: 70vh;
+}
+   
+ }
+
+ @media(max-width:784px){
+  .nav-footer  { 
+    width:60%;
+  margin-left:10px;
+  margin-bottom:20px;
+ 
+  }
+
+   }
+  @media(max-width:624px) {
+    footer{
+      display:flex ;
+      flex-direction: column-reverse;
+
   }
   
-  
+
+      .icons{ 
+      margin-left:2px;
+      position: relative;
+      bottom: 25px;
+      margin-left: 20px;
+     
+      }
+      
+      .nav-footer li  { 
+        display: flex;
+        justify-content: space-evenly;
+        width:60%;
+      margin-left:5px;
+      margin-bottom:20px;
+
+      }
+     
+      .box-aqua p{
+        width:19.7rem;
+      
+      }
+
+      .base{
+       position: relative;
+      bottom: 25px;
+      }
+    
+  }
+
+
+
+ 
